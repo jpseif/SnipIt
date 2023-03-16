@@ -1,5 +1,5 @@
 # SnipIt
-A AutoHotkey-based script to replace text snippets by predefined replacements.
+AutoHotkey-based script to replace text snippets by predefined replacements.
 
 SETUP
 Copy the SnipIt.exe and the Input.ini file into a folder.
