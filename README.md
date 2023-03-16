@@ -1,5 +1,5 @@
 # SnipIt
-AutoHotkey-based script to replace text snippets by predefined replacements.
+An AutoHotkey-based script to replace text snippets by predefined text, date or time information.
 
 SETUP
 Copy the SnipIt.exe and the Input.ini file into a folder.
