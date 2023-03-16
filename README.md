@@ -1,5 +1,5 @@
-# snipit
-AutoHotkey-based version of TextExpander.
+# SnipIt
+A AutoHotkey-based version of TextExpander.
 
 SETUP
 Copy the SnipIt.exe and the Input.ini file into a folder.
@@ -29,14 +29,14 @@ The script will run in the background and "listen" to your keyboard input. If it
 USING THE SCRIPT
 1) Run the EXE.
 2) Hit "Ctrl+Shift+S" to call the setup.
--- To create an entry: Enter a SNIPPET (short, e.g. 3-5 characters) and REPLACEMENT string and click on "Add".
--- To delete an entry: Mark it in the list and click "Delete".
--- NOTE: after you are done click "Continue".
--- 
-5) "Ctrl+Shift+Q", will stop the script.
-6) "Ctrl+Shift+P", toggles the sound ON/OFF.
+- To create an entry: Enter a SNIPPET (short, e.g. 3-5 characters) and REPLACEMENT string and click on "Add".
+- To delete an entry: Mark it in the list and click "Delete".
+- NOTE: after you are done click "Continue". 
+3) To stop the script either click "Stop" in the setup or hit "Ctrl+Shift+Q".
+4) "Ctrl+Shift+P", toggles the sound ON/OFF.
 
-Note: The easiest way to 
+Hint: The easiest way to add more snippets is to directly edit the Input.ini file.
+Note: While the script is running a hidden "List.txt" is used. It contains a list of all the snippets.
 
-Last review: 15.08.2017
+Last review: 16.03.2023
 J.Seif
