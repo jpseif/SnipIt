@@ -154,7 +154,7 @@ Loop {
 ^+q::
 ButtonStop:
 FileDelete, %A_ScriptDir%\List.txt
-MsgBox, SnippetRunner is turning off now.
+MsgBox, SnipIt is turning off now.
 ExitApp
 
 ^+s::
