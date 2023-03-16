@@ -37,6 +37,3 @@ USING THE SCRIPT
 
 Hint: The easiest way to add more snippets is to directly edit the Input.ini file.
 Note: While the script is running a hidden "List.txt" is used. It contains a list of all the snippets.
-
-Last review: 16.03.2023
-J.Seif
