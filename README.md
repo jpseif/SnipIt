@@ -1,10 +1,14 @@
 # snipit
 AutoHotkey-based version of TextExpander.
 
-1) Run the EXE.
-2) Hit "Ctrl+Shift+S" to call the setup.
-3) Enter a SNIPPET (short, e.g. 3-5 characters) and REPLACEMENT string. Check the list below or the Input.ini file for examples for time and date. Essentially it's %yy for the year, e.g. 17. So in the replacement input e.g. "\`%yy\`%MM\`%dd" (without the double quotes) will be replaced by "170814" for August 14th 2017.
-	
+SETUP
+Copy the SnipIt.exe and the Input.ini file into a folder.
+
+COMPILING THE CODE
+Download all the files (SnipIt.ahk and folders \media and \sub). Place all of them in a folder and compile the SnipIt.ahk script using the AutoHotkey tool.
+
+HOW THE SCRIPT WORKS
+The script will run in the background and "listen" to your keyboard input. If it recognizes a predefined sequence, e.g. abc, it will replace that sequence of characters by something else, that is defined in the Input.ini file (abc = something else). So typing "abc" will be replaced by "something else". There are some special characters that can be introduced, for instance for adding the date or time information or to add a new line ("Enter"). These special characters are listed below:
 - \`%dd --> replaced by day: 01 - 31
 - \`%d --> replaced by day: 1 - 31
 - \`%MM --> replaced by month: 01 - 12
@@ -22,9 +26,17 @@ AutoHotkey-based version of TextExpander.
 - \`%s --> replaced by seconds: 0 - 59
 - {n} --> replaced by an "Enter" command, i.e. new line.
 
-4) When running, the script logs your keystrokes and once it finds a sequence that matches a SNIPPET it will replace that string by the REPLACEMENT.
+USING THE SCRIPT
+1) Run the EXE.
+2) Hit "Ctrl+Shift+S" to call the setup.
+-- To create an entry: Enter a SNIPPET (short, e.g. 3-5 characters) and REPLACEMENT string and click on "Add".
+-- To delete an entry: Mark it in the list and click "Delete".
+-- NOTE: after you are done click "Continue".
+-- 
 5) "Ctrl+Shift+Q", will stop the script.
 6) "Ctrl+Shift+P", toggles the sound ON/OFF.
+
+Note: The easiest way to 
 
 Last review: 15.08.2017
 J.Seif
