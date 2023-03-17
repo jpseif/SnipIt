@@ -35,5 +35,5 @@ USING THE SCRIPT
 3) To stop the script either click "Stop" in the setup, hit "Ctrl+Shift+Q" or go to the windows taskbar (bottom right of the screen), find the running programs and the green icon with a white H and close it.
 4) "Ctrl+Shift+P", toggles the sound after replacing the snippet ON/OFF.
 
-Hint: The easiest way to add more snippets is to directly edit the Input.ini file.
+Hint: The easiest way to add more snippets is to directly edit the Input.ini file. If, however, you do that you will have to call the setup to load the newly saved  Input.ini and have access to the new snippets you added.
 Note: While the script is running a hidden "List.txt" is used. It contains a list of all the snippets.
