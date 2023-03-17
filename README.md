@@ -2,7 +2,7 @@
 An AutoHotkey-based script to replace text snippets by predefined text, date or time information.
 
 SETUP
-Copy the SnipIt.exe and the Input.ini file into a folder.
+Copy the SnipIt.exe and the Input.ini file into a folder. Note that this script only works on Windows PCs.
 
 COMPILING THE CODE
 Download all the files (SnipIt.ahk and folders \media and \sub). Place all of them in a folder and compile the SnipIt.ahk script using the AutoHotkey tool.
@@ -27,13 +27,13 @@ The script will run in the background and "listen" to your keyboard input. If it
 - {n} --> replaced by an "Enter" command, i.e. new line.
 
 USING THE SCRIPT
-1) Run the EXE.
+1) Run the SnipIt.exe file.
 2) Hit "Ctrl+Shift+S" to call the setup.
-- To create an entry: Enter a SNIPPET (short, e.g. 3-5 characters) and REPLACEMENT string and click on "Add".
-- To delete an entry: Mark it in the list and click "Delete".
-- NOTE: after you are done click "Continue". 
-3) To stop the script either click "Stop" in the setup or hit "Ctrl+Shift+Q".
-4) "Ctrl+Shift+P", toggles the sound ON/OFF.
+- To create an entry: Enter a SNIPPET (short, e.g. 3-5 characters) and a REPLACEMENT string and click on "Add".
+- To delete an entry: Mark it in the list on the left and click "Delete".
+- NOTE: after you are done click "Continue". This will close the setup and keep the script running in the background. 
+3) To stop the script either click "Stop" in the setup, hit "Ctrl+Shift+Q" or go to the windows taskbar (bottom right of the screen), find the running programs and the green icon with a white H and close it.
+4) "Ctrl+Shift+P", toggles the sound after replacing the snippet ON/OFF.
 
 Hint: The easiest way to add more snippets is to directly edit the Input.ini file.
 Note: While the script is running a hidden "List.txt" is used. It contains a list of all the snippets.
